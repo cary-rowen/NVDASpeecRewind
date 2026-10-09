@@ -30,7 +30,7 @@ addon_info = AddonInfo(
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_(
-		"Speech Rewind keeps a history of NVDA speech that can be reviewed, replayed, and copied."
+		"Speech Rewind keeps a history of NVDA speech that can be reviewed, replayed, and copied.",
 	),
 	# version
 	addon_version="0.1.0",

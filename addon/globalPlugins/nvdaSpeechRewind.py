@@ -331,7 +331,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Description for the command to copy the current speech history item.
 		description=_(
-			"Copy the last spoken information to the clipboard, or the current item when reviewing speech history."
+			"Copy the last spoken information to the clipboard, or the current item when reviewing speech history.",
 		),
 		gesture="kb:NVDA+control+x",
 		category=globalCommands.SCRCAT_SPEECH,

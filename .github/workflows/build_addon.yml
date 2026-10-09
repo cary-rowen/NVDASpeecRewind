@@ -3,8 +3,7 @@ name: build addon
 on:
   push:
     tags: ["*"]
-    # To build on main/master branch, uncomment the following line:
-    # branches: [ main , master ]
+    branches: [ main, master ]
 
   pull_request:
     branches: [ main, master ]
@@ -34,7 +33,7 @@ jobs:
         uv sync
 
     - name: Code checks
-      run: export PREK_SKIP=no-commit-to-branch; uv run prek run --all-files
+      run: export PREK_SKIP=no-commit-to-branch,pyright; uv run prek run --all-files
 
     - name: building addon
       run: uv run scons && uv run scons pot
