@@ -1,1 +1,3 @@
-Use this file to explain what has changed in your add-on since the previous release. This will be included automatically in the release description when used with GitHub actions.
+## 0.1.1 - 2026-10-10
+
+Maintenance release: refined feature and gesture documentation and completed repository metadata.

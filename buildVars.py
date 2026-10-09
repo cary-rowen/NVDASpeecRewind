@@ -33,10 +33,10 @@ addon_info = AddonInfo(
 		"Speech Rewind keeps a history of NVDA speech that can be reviewed, replayed, and copied.",
 	),
 	# version
-	addon_version="0.1.0",
+	addon_version="0.1.1",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("Initial prototype release of NVDA Speech Rewind."),
+	addon_changelog=_("Maintenance release: refined feature and gesture documentation and completed repository metadata."),
 	# Author(s)
 	addon_author="cary-rowen <cary-rowen@outlook.com>",
 	# URL for the add-on documentation support
