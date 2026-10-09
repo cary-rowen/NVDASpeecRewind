@@ -40,9 +40,9 @@ addon_info = AddonInfo(
 	# Author(s)
 	addon_author="cary-rowen <cary-rowen@outlook.com>",
 	# URL for the add-on documentation support
-	addon_url=None,
+	addon_url="https://github.com/cary-rowen/NVDASpeecRewind",
 	# URL for the add-on repository where the source code can be found
-	addon_sourceURL=None,
+	addon_sourceURL="https://github.com/cary-rowen/NVDASpeecRewind",
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
