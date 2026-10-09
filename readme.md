@@ -2,14 +2,17 @@
 
 Speech Rewind keeps recent NVDA speech so you can hear the last spoken information again after focus has moved or speech has been interrupted.
 
-## Commands
+## Features
 
-* Press `NVDA+x` once to report the last spoken information, or the currently selected speech history item. Press it twice quickly to show the complete history in a browsable message, with the newest item first.
-* Press `NVDA+control+x` to copy the last spoken information, or the currently selected speech history item, to the clipboard.
-* Assign gestures to review the previous or next speech history item.
-* Assign gestures to move to the previous or next character in speech history, or to report the current character. The current character command follows NVDA's standard behavior: the second press reports a description or example, and the third press reports the character's value in decimal and hexadecimal.
+* Repeat the last spoken information or the selected speech history item. Press `NVDA+x` twice to show the complete history in a browsable message, with the newest item first. Default gesture: `NVDA+x`.
+* Copy the last spoken information or the selected speech history item to the clipboard. Default gesture: `NVDA+control+x`.
+* Review the previous item in speech history. Default gesture: unassigned.
+* Review the next item in speech history. Default gesture: unassigned.
+* Move to the previous character in speech history and speak it. Default gesture: unassigned.
+* Report the current character in speech history. Press it twice for a description and three times for its decimal and hexadecimal values. Default gesture: unassigned.
+* Move to the next character in speech history and speak it. Default gesture: unassigned.
 
-These commands do not have default gestures. Assign them in the Input Gestures dialog under **Speech**.
+Assign unassigned gestures in `NVDA menu > Preferences > Input Gestures`, under **Speech**.
 
 ## Settings
 
