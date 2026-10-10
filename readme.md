@@ -4,7 +4,7 @@ Speech Rewind keeps recent NVDA speech so you can hear the last spoken informati
 
 ## Features
 
-* Repeat the last spoken information or the selected speech history item. Press `NVDA+x` twice to show the complete history in a browsable message, with the newest item first. Default gesture: `NVDA+x`.
+* Repeat the last spoken information or the selected speech history item. Press it twice to show the complete history in a browsable message, with the newest item first. Default gesture: `NVDA+x`.
 * Copy the last spoken information or the selected speech history item to the clipboard. Default gesture: `NVDA+control+x`.
 * Review the previous item in speech history. Default gesture: unassigned.
 * Review the next item in speech history. Default gesture: unassigned.
